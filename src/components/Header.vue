@@ -51,7 +51,7 @@
                   <ul class="mobile-sub wsmenu-list">
                     <li v-for="(type,index) in newtype" :key="index">
                       <span class="wsmenu-click"></span>
-                      <router-link :to="'/news/' + type.id">{{type.name}}</router-link>
+                      <router-link :to="'/news/' + type.id">{{type.type}}</router-link>
                     </li>
                   </ul>
                 </nav>
@@ -63,48 +63,25 @@
   </div>
 </template>
 <script>
+  import axios from 'axios'
   export default {
     name: "Header",
     mounted:function(){
-      this.addType();
+      //获取所有的新闻类型 做初始化导航条
+      axios
+        .get('http://localhost:8085/get/new/type')
+        .then(res => (this.newtype = res.data));
     },
     methods:{
-      addType:function () {
-        this.newtype = [
-          {
-            id:1,
-            name:"热点"
-          },{
-            id:2,
-            name:"科技"
-          },{
-            id:3,
-            name:"汽车"
-          },{
-            id:4,
-            name:"财经"
-          },{
-            id:5,
-            name:"国外"
-          },{
-            id:6,
-            name:"游戏"
-          },{
-            id:7,
-            name:"军事"
-          },{
-            id:8,
-            name:"搞笑"
-          },{
-            id:9,
-            name:"体育"
-          }
-        ]
-      }
     },
     data(){
       return {
-        newtype:[]
+        newtype:[
+          // {
+          //   id:"",
+          //   type:""
+          // }
+        ]
       }
     }
   }

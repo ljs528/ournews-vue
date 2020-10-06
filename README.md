@@ -1,9 +1,10 @@
 # ournews-vue
->  基于vue开发的多媒体平台
+
+> A Vue.js project
 
 ## Build Setup
 
-```bash
+``` bash
 # install dependencies
 npm install
 
@@ -17,3 +18,4 @@ npm run build
 npm run build --report
 ```
 
+For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).

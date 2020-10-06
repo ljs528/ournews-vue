@@ -1,6 +1,6 @@
 <template>
   <div id="app" >
-    <el-container >
+    <el-container style="background: #eeeeee;">
         <el-header class="my-header" style="height: 110px"><Header/></el-header>
         <el-main>
           <router-view/>

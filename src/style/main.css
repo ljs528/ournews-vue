@@ -105,7 +105,7 @@ html .ma {
 /* 2.1.Logo */
 .logo {
     display: block;
-    background-image: url(../assets/img/png-sprite/96dpi/sprite.png);
+    background-image: url(http://lOCALHOST:8085/get/sprite);
     background-position: 0px 0px;
     width: 147px;
     height: 26px;
@@ -871,7 +871,7 @@ a.special__link:focus {
   content: "";
   top: 32px;
   left: -8px;
-  background-image: url(../assets/img/png-sprite/96dpi/sprite.png);
+  background-image: url(http://lOCALHOST:8085/get/sprite);
   background-position: -117px -64px;
   width: 15px;
   height: 15px;
@@ -880,7 +880,7 @@ a.special__link:focus {
 }
 
 .header_news_panel .nav-tabs li.active a:before {
-  background-image: url(../assets/img/png-sprite/96dpi/sprite.png);
+  background-image: url(http://lOCALHOST:8085/get/sprite);
   background-position: -49px -93px;
   width: 15px;
   height: 15px;
@@ -1039,7 +1039,7 @@ a.special__link:focus {
 }
 
 .share .bg_facebook {
-  background-image: url(../assets/img/png-sprite/96dpi/sprite.png);
+  background-image: url(http://lOCALHOST:8085/get/sprite);
   background-position: -84px -93px;
   width: 7px;
   height: 12px;
@@ -1048,7 +1048,7 @@ a.special__link:focus {
 }
 
 .share .bg_twitter {
-  background-image: url(../assets/img/png-sprite/96dpi/sprite.png);
+  background-image: url(http://lOCALHOST:8085/get/sprite);
   background-position: -136px -64px;
   width: 11px;
   height: 10px;
@@ -1057,7 +1057,7 @@ a.special__link:focus {
 }
 
 .share .bg_google {
-  background-image: url(../assets/img/png-sprite/96dpi/sprite.png);
+  background-image: url(http://lOCALHOST:8085/get/sprite);
   background-position: -68px -93px;
   width: 12px;
   height: 12px;
@@ -1217,7 +1217,7 @@ article .quote {
 }
 
 .right_sidebar ul li.active a:before {
-  background-image: url(../assets/img/png-sprite/96dpi/sprite.png);
+  background-image: url(http://lOCALHOST:8085/get/sprite);
   background-position: -49px -93px;
   width: 15px;
   height: 15px;
@@ -1231,7 +1231,7 @@ article .quote {
   content: "";
   top: 32px;
   left: -8px;
-  background-image: url(../assets/img/png-sprite/96dpi/sprite.png);
+  background-image: url(http://lOCALHOST:8085/get/sprite);
   background-position: -117px -64px;
   width: 15px;
   height: 15px;
@@ -1405,7 +1405,7 @@ article .quote {
 
 .twitter__header {
   position: relative;
-  background: url(../assets/img/content/twitter_fon.jpg);
+  background: url(http://lOCALHOST:8085/get/twitter_fon);
   background-repeat: no-repeat;
   background-size: cover;
   padding: 10px 10px 10px 86px;
@@ -1418,7 +1418,7 @@ article .quote {
   content: '';
   top: 12px;
   left: 15px;
-  background-image: url(../assets/img/png-sprite/96dpi/sprite.png);
+  background-image: url(http://lOCALHOST:8085/get/sprite);
   background-position: 0px -30px;
   width: 59px;
   height: 59px;
@@ -1942,7 +1942,7 @@ article .quote {
     margin-bottom: 14px;
   }
   .twitter__header::before {
-    background-image: url(../assets/img/png-sprite/96dpi/sprite.png);
+    background-image: url(http://lOCALHOST:8085/get/sprite);
     background-position: -63px -30px;
     width: 50px;
     height: 50px;
@@ -2042,7 +2042,7 @@ article .quote {
     font-size: 9px;
   }
   .twitter__header::before {
-    background-image: url(../assets/img/png-sprite/96dpi/sprite.png);
+    background-image: url(http://lOCALHOST:8085/get/sprite);
     background-position: 0px -93px;
     width: 45px;
     height: 45px;
@@ -2133,7 +2133,7 @@ article .quote {
     font-size: 14px;
   }
   .twitter__header::before {
-    background-image: url(../assets/img/png-sprite/96dpi/sprite.png);
+    background-image: url(http://lOCALHOST:8085/get/sprite);
     background-position: -117px -30px;
     width: 30px;
     height: 30px;

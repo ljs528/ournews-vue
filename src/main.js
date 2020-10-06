@@ -11,6 +11,8 @@ import "./style/reset.css"
 import "./style/typography.css"
 import "./style/webslidemenu.css"
 
+Vue.prototype.HOST='/api'
+
 Vue.use(ElementUI);
 
 Vue.filter('timeFormat', function (valueTime) {

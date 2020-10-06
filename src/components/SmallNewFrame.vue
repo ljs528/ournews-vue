@@ -7,9 +7,10 @@
       <div class="thumbnail__caption">
         <div class="news">
           <p class="news__category yellow-line">{{item.name}}</p>
+          <!-- 大新闻特有的头部  用插槽传进来即可-->
           <slot name="header"></slot>
           <a href="news.html" class="news__link">
-            <p class="news__text">{{item.desc}}</p>
+            <p class="news__text" style="word-break: break-all;white-space: normal;">{{item.desc}}</p>
           </a>
         </div>
         <div class="posted">

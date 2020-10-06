@@ -9,7 +9,7 @@
         <el-row :gutter="20">
           <el-col :span="16">
             <div class="special special_big">
-              <img src="../assets/img/content/spec1.jpg" height="311" width="551" alt="image" class="special__img">
+              <img src="http://localhost:8085/get/spec2" height="311" width="551" alt="image" class="special__img">
               <div class="special__box">
                 <h5 class="special__category yel_line">Special project</h5>
                 <a href="#" class="special__link">Lorem ipsum dolor sit amet</a>
@@ -19,7 +19,7 @@
           </el-col>
           <el-col :span="8">
             <div class="special special_small">
-              <img src="../assets/img/content/spec2.jpg" height="311" width="285" alt="image" class="special__img">
+              <img src="http://localhost:8085/get/spec2" height="311" width="285" alt="image" class="special__img">
               <div class="special__box">
                 <h5 class="special__category yel_line">Special project</h5>
                 <a href="#" class="special__link">Lorem ipsum dolor</a>
@@ -31,7 +31,7 @@
         <el-row :gutter="20">
           <el-col :span="8">
             <div class="special special_small">
-              <img src="../assets/img/content/spec3.jpg" height="311" width="285" alt="image" class="special__img">
+              <img src="http://localhost:8085/get/spec2" height="311" width="285" alt="image" class="special__img">
               <div class="special__box">
                 <h5 class="special__category yel_line">Special project</h5>
                 <a href="#" class="special__link">Lorem ipsum dolor</a>
@@ -41,7 +41,7 @@
           </el-col>
           <el-col :span="16">
             <div class="special special_big">
-              <img src="../assets/img/content/spec4.jpg" height="311" width="551" alt="image" class="special__img">
+              <img src="http://localhost:8085/get/spec2" height="311" width="551" alt="image" class="special__img">
               <div class="special__box">
                 <h5 class="special__category yel_line">Special project</h5>
                 <a href="#" class="special__link">Lorem ipsum dolor sit amet</a>
@@ -53,7 +53,7 @@
         <el-row :gutter="20">
           <el-col :span="24">
             <div class="banner">
-              <img src="../assets/img/content/banner.jpg" height="221" width="850" alt="image" class="banner__img">
+              <img src="http://localhost:8085/get/spec2" height="221" width="850" alt="image" class="banner__img">
               <div class="banner__box">
                 <p class="banner__text first-text">Advertising</p>
                 <p class="banner__text second-text">Here</p>
